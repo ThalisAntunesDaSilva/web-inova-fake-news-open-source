@@ -1,0 +1,133 @@
+p{
+    color: #848484;
+    text-indent: 1.5em;
+    font-size: 15px;
+    text-align: justify;}
+
+h2, h3{
+    color: #848484;}
+
+h3 {
+    font-weight: medium;
+    text-indent: 1.5em;
+    color: #009688 ;}
+
+.new-container h1{
+    margin-left: 5vw;
+    margin-top: 10vh;}
+
+.newSubtitle-box{
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    margin: 3vh 5vw 3vh 5vw;
+    align-items: center;}
+
+
+.reportNew{
+    font-weight:5vh;
+
+}
+
+.newtext-box{
+   margin: 2vh 5vw 5vh 5vw;}
+
+.statusnews-box {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;}
+
+.newSubtitle-box button{
+    background-color: #E67C7C;
+    color: white;
+    height: 35px;
+    padding: 8px 8px 8px 8px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;}
+
+.newSubtitle-box button:hover {
+    background-color: #D15A5A;
+    transition: 0.2s;
+    opacity: 1;}
+
+.statusnews-box .newsCheck-box{
+    background-color: #5BC18A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 15vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 0;}
+
+.statusnews-box .newsCheck-box .check-text{
+    font-size: 3vh;
+    text-align: center;
+    font-weight: normal;}
+    
+.statusnews-box .coment-box{
+    margin-left: 2vw;
+    height: 90vh;
+    width: 75vw;
+    overflow-y: scroll;
+    border-style: solid;
+    border-color:#FCFCFC;
+    border-width: 0.1px;
+    padding: 3vh 1vw 1vh 3vw;}
+
+.statusnews-box  .coment .user-auditor {
+    margin: 2vh 0vw 2vh 0vw;}
+
+.statusnews-box  .coment .user-auditor .opnion-auditorBox{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;}
+
+.statusnews-box .coment .user-auditor .opnion-auditorBox .user-icon{
+   background-color: #F5F5F5;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 10vh;
+    min-height: 10vh;
+    margin-right: 2vw;
+    margin-bottom: 2vh;}
+
+.statusnews-box .coment .user-auditor .opnion-auditorBox .opnion-text {
+        width: 80vw;
+        margin-left: 20px;
+        margin-bottom: 40px}
+
+.attachment {
+    margin-left: 5vw;
+    margin-top: 3vh;}
+
+.attachment-box {
+    margin-left: 3vw;
+    margin-top: 2vh;} 
+
+.attachment-box .documents {
+    height: 30vh;
+    width: 50vw;
+}
+
+.attachment-box .media{
+     height: 30vh;
+     max-width: 85vw;
+   margin: 2vh 0vw 5vh 0vw;}
+
+   .attachment-box .media img {
+    max-width: 40vw;
+    max-height: 25vh;
+    margin: 2vh 1vw 1vh 2vw;
+    border-radius: 10px;}

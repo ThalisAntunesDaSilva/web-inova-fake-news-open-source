@@ -1,0 +1,49 @@
+header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;}
+
+.news-button{
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #009688;}
+
+.news-button:hover{
+   background-color: aliceblue;
+   transition: 1s;
+   animation: both;}
+
+.content {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.content-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -70px;}
+
+.logoImg {
+    margin-bottom: 60px;}
+
+.logoImg img {
+    max-width: 90px;}
+
+footer {
+    width: 100vw;
+    height: 3vh;
+    background-color: #009688;
+    position: fixed;
+    bottom: 0;}
+
+
+
+

@@ -1,0 +1,184 @@
+.news-container{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5vh 50vh 80vh 80vh 3vh;}
+
+.title-page{
+    margin-left: 7vw;
+    color: #009688;}
+
+    .newmain-text a h1:hover{
+        transition: 0.2s;
+        color: #0BC8B6;
+    }    
+
+/*Search filter styles */
+
+.filter-box{
+    margin-left: -6vw;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.filter-box h2{
+    margin-left: 7vw;
+    margin-right: 1vw;
+    color: #848484;}
+
+.filter-box .filter-button{
+    margin-left: 1vw;
+    border-style: none;
+    color: white;
+    background-color: #009688;
+    padding: 1vh 1vh 1vh 1vh;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;}
+
+.filter-box .filter-button:hover{
+    background-color: #0BC8B6;
+    transition: 0.2s;}
+
+/* News box styles */
+ /*Main news*/
+.newmain-box{
+   height: 60vh;
+    width: 100vw;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: auto;
+    text-overflow: center;
+    margin-bottom: 5vh;
+    
+}
+
+.newmain-box .newMain {
+    max-height: 60vh;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 10px;
+    transition: transform 0.2s;
+     cursor: pointer;
+    display: block;
+    background: url('../../assets/google.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    
+
+    
+}
+
+
+.newmain-box .newMain:hover,
+.newmain-box .newMain:focus {
+  
+        transform: translateX(10px) scale(1.2);
+        border-style: solid;
+        border-color: white;}
+
+.newmain-box .newmain-text{
+    height: 50vh;
+    max-width: 40vw;
+    grid-column: 2/3; }
+
+/*Secondary news box styles */
+
+.secundarynew-box{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-column: 1/1;
+    grid-row: 4/4;
+    margin-bottom: 5vh;
+ 
+
+}
+
+.secundarynew-box h1 {
+    font-size: 20;
+    color: white;
+    font-weight: normal;
+    text-align: center;}
+
+ .secundarynew-box .subtitle{
+    color: white;}
+
+
+/*Box 1*/
+
+.new-box1{
+    height: 50vh;
+    width: 40vw;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('../../assets/cafe.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    transition: transform 0.2s;
+    transform: translateX(0) scale(50vh);
+    padding: 5vh 5vw 5vh 5vw;
+    
+
+}
+
+
+
+
+.new2-box:hover,.new-box1:hover{
+ transition: 0.2s;
+ transform: translateX(10px) scale(1.2);
+
+ }
+
+
+    
+/*Box 2 */
+.new2-box{
+    height: 50vh;
+    width: 40vw;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('../../assets/idoso.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    transform: translateX(0) scale(50vh);
+    padding: 5vh 5vw 5vh 5vw;
+    
+ 
+    
+}
+
+  
+.footer{
+   grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100vw;
+    height: 3vh;
+    background-color: #009688;
+    position: fixed;
+    bottom: 0;
+    margin-top: 20vh;}
