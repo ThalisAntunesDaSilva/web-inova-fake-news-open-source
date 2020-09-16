@@ -1,5 +1,7 @@
 # Inova Digital - Fake News Web 📰
 
+https://web-inova-fake-news-open-source.vercel.app/
+
 Website to FakeNews Auditor - Unihacker.club + InovaDigital.app
 
 ![Badge](https://img.shields.io/static/v1?label=React&message=Framework&color=blue&style=for-the-badge&logo=REACT) ![Badge](https://img.shields.io/static/v1?label&message=JavaScript&color=YELLOW&style=for-the-badge&logo=JAVASCRIPT)
